@@ -1,6 +1,6 @@
 if("serviceWorker" in navigator) {
     console.log("ENTER");
-    navigator.serviceWorker.register("/my-service-worker.js");
+    navigator.serviceWorker.register("/pwa-test/my-service-worker.js");
 }
 
 const btn = document.querySelector("button");
